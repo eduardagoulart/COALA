@@ -11,7 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/doar.css">
+	<link rel="stylesheet" type="text/css" href="css/adotar.css">
 
 </head>
 
@@ -34,8 +34,8 @@
 
 				<ul>
 					
-					<li><a href="adotar.html">Adotar</a></li>
-					<li><a href="sugestoes.html" class="menu_ativo">Doar</a></li>
+					<li><a href="sugestoes.html" class="menu_ativo">Adotar</a></li>
+					<li><a href="sugestoes_2.html" >Doar</a></li>
 					<li><a href="sobre.html">Sobre</a></li>
 					<li><a href="contato.html">Contato</a></li>
 
@@ -50,7 +50,7 @@
 	<!-- Termina o cabeçalho -->
 	<!-- Inicia a introdução -->
 
-	<section class="introducao-interna interna_doar">
+	<section class="introducao-interna interna_adotar">
 
 		<div class="container">
 			<h1>Doações</h1>
@@ -63,78 +63,78 @@
 
 	<!-- Fecha a introdução -->
 
-	<!-- Inicia o orçamento -->
+	<!-- Inicia a adoção -->
 
 	<section class="animal container animar-interno">
 
-		<form action="enviar.php" method="post" name="form" class="formphp animal_form grid-8">
-
-			<!-- Dados -->
-
-			<label for="nome">Nome*</label>
-			<input id="nome" name="nome" type="text" required>
-
-			<label for="email">E-mail*</label>
-			<input id="email" name="email" type="text" required>
-
-			<label for="telefone">Telefone</label>
-			<input id="telefone" name="telefone" type="text">
-
-			<label for="nome_animal">Nome do animal</label>
-			<input id="nome_animal" name="nome_animal" type="text">
-
-			<label for="informacao">Informações o animal (alergias, restrições...)</label>
-			<input id="informacao" name="informacao" type="text">
-
-			<label for="especificacao">Raça*</label>
-			<input id="especificacao" name="especificacao" type="text" required>
-
-			<!-- Fim dos dados -->
-			<!-- Teste -->
-
-			<label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
-			<input type="text" class="nao-aparece" name="leaveblank">
-			
-			<label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
-			<input type="text" class="nao-aparece" name="dontchange" value="http://" >
-
-			<!-- Fim do teste -->
-
-			<label for="doacao">Motivo da doação</label>
-			<textarea name="doacao"></textarea>
-
-			<button id="enviar" name="enviar" type="submit" class="btn btn-preto">Enviar</button>
-
-		</form>
-
-
-
-		<div class="animal_dados grid-8">
-
-			<h3>Animal a ser doado:</h3>
-
-			<select class="box">
-
-				<option></option>
-				<option>Ave</option>
-				<option>Cachorro</option>
-				<option>Coelho</option>
-				<option>Cobra</option>
-				<option>Gato</option>
-				<option>Ramister</option>
-				<option>Tartaruga</option>
-				<option>Outro</option>
-
-			</select>
-
-		</div>
+		<h2 class="subtitulo subtitulo-adotar">Adote</h2>
 		
+		<form class="grid-16 animal_form">
+			
+			<label for="pesquisa"></label>
+			<textarea name="pesquisa">Digite o animal que deseja</textarea>
+		</form>
 
 	</section>
 
-	<!-- Finaliza o orçamento -->
+	<!-- Fecha a adoção -->
 
-	
+	<!-- Inicia a modelo -->
+
+	<section class="fotos">
+
+		<div class="container ">
+			
+			<ul>
+				<li class="grid-8 modelos"><img src="img/adotar/coelho.jpg"></li>
+				<li class="grid-8 modelos"><img src="img/adotar/rato.jpg"></li>
+				<li class="grid-16 modelos"><img src="img/adotar/husky.jpg"></li>
+				<li class="grid-8 modelos"><img src="img/adotar/dog.jpg"></li>
+				<li class="grid-8 modelos"><img src="img/adotar/tartaruga.jpg"></li>
+				<li class="grid-16 modelos"><img src="img/adotar/cat.jpg"></li>
+			</ul>
+		</div>
+		
+	</section>
+
+	<!-- Fecha a modelo -->
+
+	<!-- Inicia depoimento -->
+
+	<section class="container animar-interno">
+
+		<ul class="rslides">
+
+			<li>
+
+				<blockquote class="quote_clientes">
+					<p>“Quando adotei o Toby, encontrei uma felicidade que me faltava, ele completa um vazio. Amo muito”</p>
+					<cite>BARBARA MOSS</cite>
+				</blockquote>
+
+			</li>
+
+			<li>
+
+				<blockquote class="quote_clientes">
+					<p>“Adotar foi uma das melhores experiências, amor não tem raça e nem preço”</p>
+					<cite>CARLOS MOSS</cite>
+				</blockquote>
+				
+			</li>
+
+			<li>
+
+				<blockquote class="quote_clientes">
+					<p>“Uma vida nova que se torna parte da família”</p>
+					<cite>HENRIQUE ASSIS</cite>
+				</blockquote>
+				
+			</li>
+
+		</ul>
+	</section>
+	<!-- Finaliza depoimento -->
 	<!-- Inicia rodape -->
 
 	<div class="quebra">

@@ -32,9 +32,9 @@
 
             <ul>
 
-                <li><a href="{ url 'adotar.html'}">Sugestões</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="{% url 'sugestoes' %}">Sugestões</a></li>
+                <li><a href="{% url 'sobre' %}">Sobre</a></li>
+                <li><a href="{% url 'contato' %}">Contato</a></li>
 
             </ul>
 
@@ -59,7 +59,7 @@
 
         </blockquote>
 
-        <a href="sugestoes.html" class="btn">Sugestoes</a>
+        <a href="sugestoes_2.html" class="btn">Sugestoes</a>
 
     </div>
 
@@ -68,7 +68,7 @@
 <!-- Fecha a introdução -->
 
 <!-- Inicia a Contos -->
-
+{% block content %}
 <section class="doar container animar">
 
     <h2 class="subtitulo">Descrição</h2>
@@ -121,7 +121,7 @@
 
         <div class="segundo">
 
-            <li class="grid-8">
+            <li class="grid-8 segundo">
 
                 <div>
 
@@ -147,10 +147,11 @@
 
     <div class="call">
         <p>Clique aqui para deixar um sugestão de conto</p>
-        <a href="sugestoes.html" class="btn btn-preto">Sugestões</a>
+        <a href="sugestoes_2.html" class="btn btn-preto">Sugestões</a>
     </div>
 
 </section>
+{% endblock %}
 
 <!-- Fecha Contos -->
 
@@ -225,9 +226,9 @@
 <!-- Final do rodapé -->
 
 
-<script src="JS/libs/jquery-1.11.2.min.js"></script>
-<script src="JS/plugins.js"></script>
-<script src="JS/main.js"></script>
+<script src="{% static 'JS/libs/jquery-1.11.2.min.js' %}"></script>
+<script src="{% static 'JS/plugins.js' %}"></script>
+<script src="{% static 'JS/main.js' %}"></script>
 
 </body>
 
