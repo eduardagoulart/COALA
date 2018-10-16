@@ -1,0 +1,246 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Contos para crianças</title>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/normalize.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/grid.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+</head>
+
+<body>
+
+<!-- Faz o cabeçalho -->
+
+<header class="header">
+
+    <div class="container">
+
+        <a href="index.html" class="grid-4 btn btn-header">
+            <p>COALA</p>
+        </a>
+
+        <nav class="grid-12 header_menu">
+
+            <ul>
+
+                <li><a href="{ url 'adotar.html'}">Sugestões</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<!-- Termina o cabeçalho -->
+
+<section class="introducao">
+
+    <div class="container">
+
+        <h1>Contando libras</h1>
+
+        <blockquote class="quote-externo">
+
+            <p>“O homem nasceu para lutar e a sua vida é uma eterna batalha.”</p>
+            <cite>THOMAS CARLYLE</cite>
+
+        </blockquote>
+
+        <a href="sugestoes.html" class="btn">Sugestoes</a>
+
+    </div>
+
+</section>
+
+<!-- Fecha a introdução -->
+
+<!-- Inicia a Contos -->
+
+<section class="doar container animar">
+
+    <h2 class="subtitulo">Descrição</h2>
+
+    <p class="descricao">COALA - COntAndo LibrAs, O projeto foi criado em 2018 por alunos da Universidade Federal de São
+        João Del Rei, <br>com o objetivo de contar
+        contos infantis para crianças surdas.
+        Todos devem ter o gosto dos prazeres da infância <br>e tentamos trazer um pouco para aqueles que não conheciam
+        as histórias da Disney.
+    </p>
+
+</section>
+
+<!-- Fecha Informação inicial -->
+
+<!-- Inicia a Contos -->
+
+<section class="doar container animar">
+
+    <h2 class="subtitulo">Contos</h2>
+
+    <ul class="doar_lista">
+
+        <!-- Inicia o primeiro animal -->
+
+        <li class="grid-8">
+
+            <div>
+
+                <iframe height="305" src="https://www.youtube.com/embed/7q1kF5N1gHs" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <h3>Rapunzel</h3>
+                <p>Descrição da história</p>
+            </div>
+
+        </li>
+
+        <li class="grid-8">
+            <div>
+                <iframe height="305" src="https://www.youtube.com/embed/JuCVU9rGUa8" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <h3>Chapeuzinho Vermelho</h3>
+                <p>Descrição da história</p>
+            </div>
+        </li>
+
+
+        <!-- Finaliza o primeiro animal -->
+        <!-- Inicia segundo o animal -->
+
+        <div class="segundo ">
+
+            <p align="center" class="grid-8 doar_p">Não os abandone, animais são vidas, <br>E como tais, merecem um
+                lar...</p>
+
+            <li class="grid-8">
+
+                <div>
+
+                    <img src="img/youtube-logo.jpg" alt="rua icone" class="doar_img">
+
+                </div>
+
+            </li>
+
+        </div>
+
+        <!-- Finaliza o segundo animal -->
+        <!-- Inicia terceiro o animal -->
+
+        <div class="terceiro">
+
+            <li class="grid-8">
+
+                <div>
+
+                    <img src="img/youtube-logo.jpg" alt="happy icone" class="doar_img">
+
+                </div>
+
+            </li>
+
+            <p align="center" class="grid-8 doar_p">Doe aqui, e faça com que seu animal<br> seja feliz com uma outra
+                família!!</p>
+
+        </div>
+
+        <!-- Finaliza terceiro o animal -->
+
+    </ul>
+
+    <div class="call">
+        <p>Clique aqui para deixar um sugestão de conto</p>
+        <a href="sugestoes.html" class="btn btn-preto">Sugestões</a>
+    </div>
+
+</section>
+
+<!-- Fecha Contos -->
+
+<!-- Inicia rodape -->
+
+<div class="quebra">
+
+    <blockquote class="quote-externo container">
+
+        <p>“O caminho para se conseguir a felicidade é fazendo as outras pessoas felizes.” </p>
+        <cite>ROBERT BADEN-POWELL</cite>
+
+    </blockquote>
+
+</div>
+
+<footer>
+
+    <div class="footer">
+
+        <div class="container">
+
+            <div class="grid-8 footer_historia">
+                <h3>Nossa História</h3>
+                <p>O site foi criado com o objetivo de trazer diminuir a quantidade de animais abandonados nas ruas.
+                    Levando felicidade à vida dos animais e de suas novas famílias</p>
+            </div>
+
+            <div class="grid-4 footer_contato">
+                <h3>Contato</h3>
+                <ul>
+                    <li>-+55 032 99173-1875</li>
+                    <li>-earnyourpet@gmail.com</li>
+                    <li>-Earn Your Pet - MG</li>
+                </ul>
+            </div>
+
+            <div class="grid-4 footer_redes">
+
+                <h3>Redes Sociais</h3>
+
+                <ul>
+
+                    <li><a href="http://facebook.com" target="_blank"><img src="img/icone/facebook-roxo.png"
+                                                                           alt="Facebook Bikcraft"></a></li>
+                    <li><a href="http://instagram.com" target="_blank"><img src="img/icone/instagram-roxo.png"
+                                                                            alt="instagram Bikcraft"></a></li>
+                    <li><a href="http://twitter.com" target="_blank"><img src="img/icone/twitter-roxo.png"
+                                                                          alt="Twitter Bikcraft"></a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="copy">
+
+        <div class="container">
+            <p class="grid-16">Earn Your Pet 2017 - Alguns direitos reservados</p>
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- Final do rodapé -->
+
+
+<script src="JS/libs/jquery-1.11.2.min.js"></script>
+<script src="JS/plugins.js"></script>
+<script src="JS/main.js"></script>
+
+</body>
+
+</html>

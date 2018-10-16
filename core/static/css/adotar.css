@@ -1,0 +1,57 @@
+.interna_adotar{
+	background: url("../img/bg-adotar.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.interna_adotar{
+	margin-top: 76px;
+}
+
+/*Subtitulo-adotar*/
+
+.subtitulo.subtitulo-adotar{
+	padding-top: 40px;
+	margin-bottom: 20px;
+}
+
+.animal_form textarea{
+	width: 400px;
+	height: 40px;
+	border: 4px solid #8854a1;
+	background: none;
+	padding: 7px 10px;
+	margin-left: 280px;
+	margin-bottom: 40px;
+	outline: none;
+	font-size: 14px;
+	font-family: Georgia, "Time New Roman", serif;
+}
+
+/* Mostra */
+
+.modelos{
+	padding-top: 20px;
+}
+
+/* Depoimentos*/
+.quote_clientes{
+	padding: 60px 0;
+	margin: 0 auto;
+	max-width: 460px;
+}
+
+.quote_clientes p{
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 25px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.quote_clientes cite{
+	font-size: 18px;
+	font-weight: bold;
+	float:right;
+	font-style: normal;
+}
