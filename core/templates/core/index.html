@@ -6,7 +6,7 @@
 
 <head>
 
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Contos para crianças</title>
 
     <link rel="stylesheet" type="text/css" href="{% static 'css/normalize.css' %}">
@@ -85,16 +85,107 @@
 <!-- Fecha Informação inicial -->
 
 <!-- Inicia a Contos -->
+<!--Corrigir e inserir no css  style corretamente -->
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
 
 <section class="doar container">
 
     <h2 class="subtitulo">Contos</h2>
 
+    <div class="row" >
+        <div class="column" >
+             <div class="grid-8">
+
+                <iframe height="305" src="https://www.youtube.com/embed/7q1kF5N1gHs" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <h3>Rapunzel</h3>
+                <p>Descrição da história</p>
+            </div>
+        </div>
+
+        <div class="column" >
+            <div class="grid-8">
+                <iframe height="305" src="https://www.youtube.com/embed/JuCVU9rGUa8" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <h3>Chapeuzinho Vermelho</h3>
+                <p>Descrição da história</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row" style=" padding-top: 50px;">
+            <div class="column" >
+                 <div class="grid-8">
+
+                    <iframe height="305" src="https://www.youtube.com/embed/7q1kF5N1gHs" frameborder="0"
+                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <h3>Rapunzel</h3>
+                    <p>Descrição da história</p>
+                </div>
+            </div>
+            <div class="column" >
+                <div class="grid-8">
+
+                   <iframe height="305" src="https://www.youtube.com/embed/7q1kF5N1gHs" frameborder="0"
+                           allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                   <h3>Rapunzel</h3>
+                   <p>Descrição da história</p>
+               </div>
+           </div>
+    </div>
+
+    <div class="row" style=" padding-top: 50px;">
+        <div class="column" >
+             <div class="grid-8">
+
+                <iframe height="305" src="https://www.youtube.com/watch?v=TVqcGTf1Jow" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <h3>Operações Aéreas </h3>
+                <p>Exercícios de Operações Aéreas com o NApOc "Araguari"</p>
+            </div>
+        </div>
+        <div class="column" >
+            <div class="grid-8">
+
+               <iframe height="305" src="https://www.youtube.com/watch?v=X_MkZ-kMcxM" frameborder="0"
+                       allow="autoplay; encrypted-media" allowfullscreen></iframe>
+               <h3>Porta-Helicópteros Multipropósito "Atlântico"</h3>
+               <p>Chegada do Porta-Helicópteros Multipropósito "Atlântico"</p>
+           </div>
+       </div>
+</div>
+
     <ul class="doar_lista">
 
         <!-- Inicia o primeiro animal -->
 
-        <li class="grid-8">
+        <!--li class="grid-8">
 
             <div>
 
@@ -104,35 +195,47 @@
                 <p>Descrição da história</p>
             </div>
 
-        </li>
+        </li-->
 
-        <li class="grid-8">
+        <!--li class="grid-8">
             <div>
                 <iframe height="305" src="https://www.youtube.com/embed/JuCVU9rGUa8" frameborder="0"
                         allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 <h3>Chapeuzinho Vermelho</h3>
                 <p>Descrição da história</p>
             </div>
-        </li>
+        </li-->
 
 
         <!-- Finaliza o primeiro animal -->
         <!-- Inicia segundo o animal -->
 
+        <li class="grid-8">
+            <div class="segundo ">
+
+                <p align="center" class="grid-8 doar_p">Não os abandone, animais são vidas, <br>E como tais, merecem um
+                    lar...</p>
+
+                <!-- <li class="grid-8"></li> -->
+
         <div class="segundo">
 
             <li class="grid-8 segundo">
 
-                <div>
+                    <div>
+
+                        <img src="img/youtube-logo.jpg" alt="rua icone" class="doar_img">
 
                     <iframe height="305" src="https://www.youtube.com/embed/3nztiJSc7vo" frameborder="0"
                             allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
                 </div>
 
-            </li>
+                    </div>
 
-        </div>
+                <!-- </li> -->
+            </div>
+        </li>
 
 
         <!-- Finaliza o segundo animal -->
@@ -145,6 +248,8 @@
         </div>
     </ul>
 
+
+
     <div class="call">
         <p>Clique aqui para deixar um sugestão de conto</p>
         <a href="sugestoes_2.html" class="btn btn-preto">Sugestões</a>
@@ -152,6 +257,12 @@
 
 </section>
 {% endblock %}
+
+
+
+<section>
+
+</section>
 
 <!-- Fecha Contos -->
 

@@ -438,6 +438,14 @@ img{
 	margin: 0 5px;
 }
 
+/*hr {
+    width: 90%;
+    border: 0;
+    height: 1px;
+    background: #000;
+    opacity: 0.2;
+}*/
+
 .rslides_tabs li a{
 	display: inline-block;
 	width: 12px;
